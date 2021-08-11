@@ -1,0 +1,43 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "@metamask/onboarding": "^1.0.1",
+    "@reduxjs/toolkit": "^1.6.1",
+    "disable-scroll": "^0.6.0",
+    "react": "16.11.0",
+    "react-cookie": "^4.0.3",
+    "react-dom": "16.11.0",
+    "react-hook-form": "^7.12.2",
+    "react-metamask-login-button": "^1.0.18",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.2.0",
+    "react-table": "^7.7.0",
+    "rimble-ui": "^0.2.0",
+    "styled-components": "^4.4.1",
+    "web3": "1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
